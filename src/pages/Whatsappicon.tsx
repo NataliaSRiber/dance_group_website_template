@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image'
-import whatsIcon from '../assets/whatsApp.svg.png'
+import whatsIcon from './assets/whatsApp.svg.png'
 
 const WhatsappIcon = () => {
     return (

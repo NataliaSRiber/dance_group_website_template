@@ -1,11 +1,11 @@
 import { Inter } from 'next/font/google'
-import Nav from '../pages/components/Nav'
-import AboutUs from './components/about'
-import Footer from './components/Footer'
-import Form from './components/Form'
-import Slider from './components/Slider'
-import WhatsappIcon from './components/Whatsappicon'
-import OurYoutubeVideos from './components/OurYoutubeVideos'
+import Nav from '../pages/Nav'
+import AboutUs from './About'
+import Footer from './Footer'
+import Form from './Form'
+import Slider from './Slider'
+import WhatsappIcon from './Whatsappicon'
+import OurYoutubeVideos from './OurYoutubeVideos'
 
 const inter = Inter({ subsets: ['latin'] })
 
