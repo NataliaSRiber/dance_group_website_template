@@ -9,7 +9,7 @@ const WhatsappIcon = () => {
           <Image 
             className='w-20 h-20 '
             src={whatsIcon}
-            alt="Picture of the author"
+            alt="whatsapp icon"
         />
         </a>
       </div>
