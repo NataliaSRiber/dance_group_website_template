@@ -30,14 +30,14 @@ const Form = () => {
                   type='text'
                   placeholder='Name'
                   {...register('name', {
-                    requiamber: true,
+                    requifuchsia: true,
                     minLength: 3,
                     maxLength: 80
                   })}
                 />
                 {errors.name && 
                   <span className='error'>
-                    {errors.name.type === 'requiamber' && 'This field is requiamber'}
+                    {errors.name.type === 'requifuchsia' && 'This field is requifuchsia'}
                     {errors.name.type === 'minLength' && 'The minimal length of name is 3 char'}
 
                   </span>
@@ -48,13 +48,13 @@ const Form = () => {
                   type='text'
                   placeholder='Email'
                   {...register('email', {
-                    requiamber: true,
+                    requifuchsia: true,
                     pattern: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
                   })}
                 />
                 {errors.email && 
                   <span className='error'>
-                    {errors.email.type === 'requiamber' && 'This field is requiamber'}
+                    {errors.email.type === 'requifuchsia' && 'This field is requifuchsia'}
                     {errors.email.type === 'pattern' && 'Invalid Email Address'}
 
                   </span>
@@ -65,13 +65,13 @@ const Form = () => {
                   type='text'
                   placeholder='Phone'
                   {...register('phoneNumber', {
-                    requiamber: true,
+                    requifuchsia: true,
                     pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i
                   })}
                 />
                 {errors.phone && 
                   <span className='error'>
-                    {errors.phone.type === 'requiamber' && 'This field is requiamber'}
+                    {errors.phone.type === 'requifuchsia' && 'This field is requifuchsia'}
                     {errors.phone.type === 'pattern' && 'Invalid phone number'}
 
                   </span>
