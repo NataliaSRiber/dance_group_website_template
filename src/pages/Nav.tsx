@@ -22,7 +22,7 @@ export default function Nav() {
 
   return (
     <div className="z-10 shadow-md w-full top-0 left-0">
-      <div className="md:flex items-center justify-between bg-fuchsia-950 py-4 md:px-10 px-7">
+      <div className="flex flex-row items-center justify-between bg-fuchsia-950 py-4 md:px-10 px-7">
         <div className="text-3xl text-white mr-1 pt-2">
           <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins]">
             <span>Logo</span>
@@ -43,7 +43,7 @@ export default function Nav() {
           }
           {/* <Button>Get Started</Button > */}
         </ul>
-        <div className="w-36 font-bold text-2xl cursor-pointer flex p-3 justify-between font-[Poppins]">
+        <div className="md:static absolute w-36 left-0 right-0 md:m-0 m-auto font-bold text-2xl cursor-pointer flex p-3 justify-between font-[Poppins]">
           <div>
             <a href="https://www.instagram.com/" target="_blank">
               <BsInstagram className="pr-3 text-white hover:text-fuchsia-400" size='30px'/>
