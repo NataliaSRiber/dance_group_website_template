@@ -10,8 +10,8 @@ const OurYoutubeVideos = () => {
         <section className='md:h-full flex items-center text-gray-600'>
           <div className='container px-5 py-20 mx-auto'>
             <div className='text-center mb-12'>
-              {/* <h5 className='text-base mb:text-lg text-fuchsia-700 mb-1'>See Our recent videos</h5> */}
-              <h1 className='text-3xl md:text-5xl text-gray-700 font-semibold'>See Our recent videos</h1>
+              {/* <h5 className='text-base mb:text-lg text-blue-700 mb-1'>See Our recent videos</h5> */}
+              <h1 className='text-3xl md:text-5xl text-gray-700 font-semibold'>See our recent videos</h1>
             </div>
             <div className='flex flex-wrap justify-center'>
               <div className='p-4 md:w-1/2 lg:w-1/3'>
@@ -56,7 +56,7 @@ const OurYoutubeVideos = () => {
               </div>
             </div>
           </div>
-        {/* <h1 className='text-fuchsia-600 text-4xl text-center py-20 font-bold'>Algumas de nossas apresentações!</h1> */}
+        {/* <h1 className='text-blue-600 text-4xl text-center py-20 font-bold'>Algumas de nossas apresentações!</h1> */}
         {/* <div> 
           <ul>
             <li>
