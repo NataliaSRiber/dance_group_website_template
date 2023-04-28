@@ -8,31 +8,30 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import na from './assets/next.png'
 import pa from './assets/back.png'
-import '../styles/banner.module.css'
-
+import styles from '../styles/banner.module.css'
 
 const NextBtn = (props: any) => {
-  const { className, onClick} = props;
+  const { onClick } = props;
   return (
-    <div className='bg-red-600 w-20' onClick={onClick}>
+    <div className='text-blue-950 sm:w-52 w-20' onClick={onClick}>
       <Image src={na} alt="next-arrow"/>
     </div>
   );
 };
 
 const PrevBtn = (props: any) => {
-  const { className, onClick } = props;
+  const { onClick } = props;
   return (
-    <div className='bg-red-600 w-20' onClick={onClick}>
+    <div className='text-blue-950 sm:w-52 w-20' onClick={onClick}>
       <Image src={pa} alt="prev-arrow" />
     </div>
   );
 };
 
 const Home = () => {
+  const slider = React.useRef(null);
   const settings = {
     dots: true,
-    infinite: true,
     speed: 800,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -46,11 +45,11 @@ const Home = () => {
     return (
       <>
         <Nav />
-        <div className='bg-pink-600 w-full'>
-          <Slider {...settings}>
-          <div className='flex'>
+        <div className='w-full'>
+          <Slider ref={slider} {...settings} className={`${styles["slick-slider"]}`}>
+          <div>
             <Image
-                className='bg-yellow-300'
+                className=''
                 src={b1}
                 alt="Picture of the author"
               />

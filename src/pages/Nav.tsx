@@ -39,7 +39,7 @@ export default function Nav() {
             )
           }
         </ul>
-        {/* <div className="w-36 font-bold text-2xl cursor-pointer flex md:p-1 justify-between font-[Poppins]">
+        <div className="md:static absolute w-36 left-0 right-0 md:m-0 m-auto font-bold text-2xl cursor-pointer flex p-3 justify-between font-[Poppins]">
           <div>
             <a href="https://www.instagram.com/" target="_blank">
               <BsInstagram className="pr-2 text-white hover:text-blue-400" size='30px'/>
@@ -60,7 +60,7 @@ export default function Nav() {
               <BsYoutube className="pr-2 text-white hover:text-blue-400" size='30px'/>
             </a>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   )
