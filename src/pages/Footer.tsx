@@ -3,7 +3,7 @@ import React from 'react';
 
 const Footer = (props: any) => {
     return (
-      <footer className="bg-fuchsia-950 text-white font-[Poppins] py-2 px-6 bottom-0 fixed w-full flex flex-row place-content-evenly p-3">
+      <footer className="bg-blue-950 text-white font-[Poppins] py-2 px-6 bottom-0 fixed w-full flex flex-row place-content-evenly p-3">
         <div>
           <h2 className='text-xl font-bold'>Horários</h2>
           <p>Segunda, quarta e sexta:</p>

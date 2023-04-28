@@ -10,8 +10,8 @@ const OurYoutubeVideos = () => {
         <section className='md:h-full flex items-center text-gray-600'>
           <div className='container px-5 py-20 mx-auto'>
             <div className='text-center mb-12'>
-              {/* <h5 className='text-base mb:text-lg text-fuchsia-700 mb-1'>See Our recent videos</h5> */}
-              <h1 className='text-3xl md:text-5xl text-gray-700 font-semibold'>See Our recent videos</h1>
+              {/* <h5 className='text-base mb:text-lg text-blue-700 mb-1'>See Our recent videos</h5> */}
+              <h1 className='text-3xl md:text-5xl text-gray-700 font-semibold'>See our recent videos</h1>
             </div>
             <div className='flex flex-wrap -m-4'>
               <div className='p-4 sm:w-1/2 lg:w-1/3'>
@@ -21,8 +21,8 @@ const OurYoutubeVideos = () => {
                     src={hotel}
                     className='lg:h-72 md:h-48 w-full object-cover object-center' //h-72 para 54
                   />
-                  <div className='p-6 hover:bg-fuchsia-700 hover:text-white transition duration-300 ease-in cursor-pointer'>
-                    <h2 className='text-base font-medium text-fuchsia-300 mb-1'>October 21, 2020</h2>
+                  <div className='p-6 hover:bg-blue-700 hover:text-white transition duration-300 ease-in cursor-pointer'>
+                    <h2 className='text-base font-medium text-blue-300 mb-1'>October 21, 2020</h2>
                     <h1 className='text-2xl font-semibold mb-3'>Beautiful Beach</h1>
                     <p className='leadind-relaxed mb-3'> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                   </div>
@@ -36,8 +36,8 @@ const OurYoutubeVideos = () => {
                     src={hotel}
                     className='lg:h-72 md:h-48 w-full object-cover object-center' //h-72 para 54
                   />
-                  <div className='p-6 hover:bg-fuchsia-700 hover:text-white transition duration-300 ease-in cursor-pointer'>
-                    <h2 className='text-base font-medium text-fuchsia-300 mb-1'>October 21, 2020</h2>
+                  <div className='p-6 hover:bg-blue-700 hover:text-white transition duration-300 ease-in cursor-pointer'>
+                    <h2 className='text-base font-medium text-blue-300 mb-1'>October 21, 2020</h2>
                     <h1 className='text-2xl font-semibold mb-3'>Beautiful Beach</h1>
                     <p className='leadind-relaxed mb-3'> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                   </div>
@@ -51,8 +51,8 @@ const OurYoutubeVideos = () => {
                     src={hotel}
                     className='lg:h-72 md:h-48 w-full object-cover object-center' //h-72 para 54
                   />
-                  <div className='p-6 hover:bg-fuchsia-700 hover:text-white transition duration-300 ease-in cursor-pointer'>
-                    <h2 className='text-base font-medium text-fuchsia-300 mb-1'>October 21, 2020</h2>
+                  <div className='p-6 hover:bg-blue-700 hover:text-white transition duration-300 ease-in cursor-pointer'>
+                    <h2 className='text-base font-medium text-blue-300 mb-1'>October 21, 2020</h2>
                     <h1 className='text-2xl font-semibold mb-3'>Beautiful Beach</h1>
                     <p className='leadind-relaxed mb-3'> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                   </div>
@@ -66,8 +66,8 @@ const OurYoutubeVideos = () => {
                     src={hotel}
                     className='lg:h-72 md:h-48 w-full object-cover object-center' //h-72 para 54
                   />
-                  <div className='p-6 hover:bg-fuchsia-700 hover:text-white transition duration-300 ease-in cursor-pointer'>
-                    <h2 className='text-base font-medium text-fuchsia-300 mb-1'>October 21, 2020</h2>
+                  <div className='p-6 hover:bg-blue-700 hover:text-white transition duration-300 ease-in cursor-pointer'>
+                    <h2 className='text-base font-medium text-blue-300 mb-1'>October 21, 2020</h2>
                     <h1 className='text-2xl font-semibold mb-3'>Beautiful Beach</h1>
                     <p className='leadind-relaxed mb-3'> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                   </div>
@@ -76,7 +76,7 @@ const OurYoutubeVideos = () => {
               </div>
             </div>
           </div>
-        {/* <h1 className='text-fuchsia-600 text-4xl text-center py-20 font-bold'>Algumas de nossas apresentações!</h1> */}
+        {/* <h1 className='text-blue-600 text-4xl text-center py-20 font-bold'>Algumas de nossas apresentações!</h1> */}
         {/* <div> 
           <ul>
             <li>

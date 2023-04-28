@@ -8,11 +8,7 @@ import Link from "next/link";
 
 export default function Nav() {
   const links = [
-    // {name: "HOME", link: "/"},
-    // {name: "ABOUT", link: "/"},
-    // {name: "SERVICE", link: "/"},
-    // {name: "CONTACT", link: "/"},
-    {name: "INÍCIO", link: "/Home"},
+    {name: "INÍCIO", link: "/"},
     {name: "SOBRE", link: "/About"},
     {name: "GALERIA DE FOTOS", link: "/OurPhotos"},
     {name: "NOSSOS VÍDEOS", link: "/OurYoutubeVideos"},
@@ -22,7 +18,8 @@ export default function Nav() {
 
   return (
     <div className="z-10 shadow-md w-full top-0 left-0">
-      <div className="md:flex items-center justify-between bg-fuchsia-950 py-4 md:px-10 px-7">
+      {/* lterei o py de py-4 para p-5 e assim removeu o espaço entre os menus */}
+      <div className="md:flex items-center justify-between bg-blue-950 py-5 md:px-10 px-7">
         <div className="text-3xl text-white mr-1 pt-2">
           <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins]">
             <span>Logo</span>
@@ -33,38 +30,37 @@ export default function Nav() {
           {!open && <GiHamburgerMenu color="white"/>}        
         </div>
         {/* o z-[-1]  esta dando problema procurar sobre */}
-        <ul className={`z-0 md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-fuchsia-950 md:z-auto left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20': 'top-[-490px]'}`}>
+        <ul className={`z-5 md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-blue-950 md:z-auto left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 h-full': 'top-[-490px]'}`}>
           { 
             links.map(({name, link}, index)=>
               <li key={index} className="md:ml-8 text-l font-bold md:my-0 my-7">
-                <Link href={link} className="text-white hover:text-fuchsia-400 duration-500">{name}</Link>
+                <Link href={link} className="text-white hover:text-blue-400 duration-500">{name}</Link>
               </li>
             )
           }
-          {/* <Button>Get Started</Button > */}
         </ul>
-        <div className="w-36 font-bold text-2xl cursor-pointer flex p-3 justify-between font-[Poppins]">
+        {/* <div className="w-36 font-bold text-2xl cursor-pointer flex md:p-1 justify-between font-[Poppins]">
           <div>
             <a href="https://www.instagram.com/" target="_blank">
-              <BsInstagram className="pr-3 text-white hover:text-fuchsia-400" size='30px'/>
+              <BsInstagram className="pr-2 text-white hover:text-blue-400" size='30px'/>
             </a>
           </div>
           <div>
             <a href="https://www.facebook.com/" target="_blank">
-              <BsFacebook className="pr-3 text-white hover:text-fuchsia-400" size='30px'/>
+              <BsFacebook className="pr-2 text-white hover:text-blue-400" size='30px'/>
             </a>
           </div>
           <div>
             <a href="https://www.whatsapp.com/?lang=pt_br" target="_blank">
-              <BsWhatsapp className="pr-3 text-white hover:text-fuchsia-400" size='30px'/>
+              <BsWhatsapp className="pr-2 text-white hover:text-blue-400" size='30px'/>
             </a>
           </div>
           <div>
             <a href="https://www.youtube.com/" target="_blank">
-              <BsYoutube className="pr-3 text-white hover:text-fuchsia-400" size='30px'/>
+              <BsYoutube className="pr-2 text-white hover:text-blue-400" size='30px'/>
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   )
