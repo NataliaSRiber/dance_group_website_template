@@ -8,8 +8,7 @@ import Link from "next/link";
 
 export default function Nav() {
   const links = [
-    {name: "INÍCIO", link: "/"},
-    {name: "SOBRE", link: "/About"},
+    {name: "SOBRE", link: "/"},
     {name: "GALERIA DE FOTOS", link: "/OurPhotos"},
     {name: "NOSSOS VÍDEOS", link: "/OurYoutubeVideos"},
   ]
@@ -42,22 +41,22 @@ export default function Nav() {
         {!open && <div className="md:static absolute w-24 min-[330px]:w-36 left-0 right-0 top-8 md:m-0 m-auto font-bold text-2xl cursor-pointer flex justify-between font-[Poppins]">
         
         <a href="https://www.instagram.com/" target="_blank">
-          <BsInstagram className="w-5 text-white hover:text-fuchsia-400"/>
+          <BsInstagram className="w-5 text-white hover:text-blue-400"/>
         </a>
       
     
         <a href="https://www.facebook.com/" target="_blank">
-          <BsFacebook className="w-5 text-white hover:text-fuchsia-400"/>
+          <BsFacebook className="w-5 text-white hover:text-blue-400"/>
         </a>
       
     
         <a href="https://www.whatsapp.com/?lang=pt_br" target="_blank">
-          <BsWhatsapp className="w-5 text-white hover:text-fuchsia-400"/>
+          <BsWhatsapp className="w-5 text-white hover:text-blue-400"/>
         </a>
       
     
         <a href="https://www.youtube.com/" target="_blank">
-          <BsYoutube className="w-5 text-white hover:text-fuchsia-400"/>
+          <BsYoutube className="w-5 text-white hover:text-blue-400"/>
         </a>
       
         </div>}
