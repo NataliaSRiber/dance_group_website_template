@@ -17,12 +17,12 @@ const AboutUs = () => {
             alt="Picture of the author"
           />
           <div className='text-white absolute top-1/2 w-full'>
-            <h1 className='tracking-wide font-semibold md:pb-2 text-md md:text-4xl'>Balanço das Ondas</h1>
+            <h1 className='tracking-wide font-semibold md:pb-2 text-md md:text-4xl'>Dirty Dancing</h1>
             <p className='font-light text-xs md:text-xl'>Grupo de dança de Balneário Camboriú, Santa Catarina</p>
           </div>
           </div>
           <div className='flex flex-col py-20 md:px-20 px-10'>
-            <h1 className='text-3xl md:text-5xl text-gray-700 font-semibold text-center pb-20'>About us</h1>
+            <h1 className='text-3xl md:text-5xl text-gray-700 font-semibold text-center pb-20'>Sobre nós</h1>
             <p className='text-xl text-justify'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin, velit a luctus vulputate, orci erat consectetur neque, quis dignissim erat ligula at lacus. Quisque nec purus nec augue tristique rutrum ac imperdiet mi. Nulla consectetur risus vel ante venenatis, eu fermentum lorem placerat. Nunc viverra lobortis mauris, id rhoncus elit rutrum quis. Praesent feugiat finibus enim, sed tempor tortor dictum in. Sed eros magna, pulvinar id mollis in, ornare ac nunc. Donec non sagittis felis. Fusce congue quam velit. Vivamus non elit risus. Duis ante nibh, porttitor in ipsum a, luctus dapibus lectus. Praesent facilisis, felis et viverra vehicula, metus turpis accumsan velit, ut sollicitudin risus mauris non nisl. Mauris mattis lobortis mauris ut varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at vehicula est. Proin egestas, nisl eu semper aliquet, libero quam aliquam nunc, nec rhoncus mi nibh ut nunc.
 

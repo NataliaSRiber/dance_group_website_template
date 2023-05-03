@@ -11,13 +11,14 @@ export default function Nav() {
     {name: "SOBRE", link: "/"},
     {name: "GALERIA DE FOTOS", link: "/OurPhotos"},
     {name: "NOSSOS VÍDEOS", link: "/OurYoutubeVideos"},
+    {name: "CONTATO", link: "/Contact"},
   ]
 
   const [open, setOpen] = useState(false);
 
   return (
     <div className="z-10 shadow-md w-full">
-      {/* lterei o py de py-4 para p-5 e assim removeu o espaço entre os menus */}
+      {/* alterei o py de py-4 para p-5 e assim removeu o espaço entre os menus */}
       <div className="md:flex items-center justify-between bg-blue-950 py-5 md:px-10 px-7">
         <div className="text-3xl text-white mr-1 pt-2">
           <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins]">

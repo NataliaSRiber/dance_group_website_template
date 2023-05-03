@@ -33,6 +33,7 @@ const PrevBtn = (props: any) => {
 
 const OurPhotos = () => {
   const settings = {
+    dots: true,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 3,
@@ -44,7 +45,6 @@ const OurPhotos = () => {
 
     responsive: [
       {
-        dots: true,
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
@@ -54,19 +54,20 @@ const OurPhotos = () => {
         }
       },
       {
-        breakpoint: 600,
-        dots: true,
+        breakpoint: 720,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 1
+          initialSlide: 1,
+          dots: true,
         }
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          dots: true,
         }
       }
     ]
@@ -74,54 +75,54 @@ const OurPhotos = () => {
     return (
       <>
         <Nav />
-        <h1 className='text-3xl md:text-5xl text-gray-700 font-semibold text-center py-20'>See our recent photos</h1>
+        <h1 className='text-3xl md:text-5xl text-gray-700 font-semibold text-center py-20'>Veja nossa galeria de fotos</h1>
         <div className='z-0'>
         <Slider {...settings} className={`${styles["slick-slider"]}`}>
           <div>
             <Image
-                className='w-{100} p-3'
+                className='w-{100}'
                 src={b2}
                 alt="Picture of the author"
               />
           </div>
           <div>
             <Image
-                className='w-{100} p-3'
+                className='w-{100}'
                 src={b2}
                 alt="Picture of the author"
               />
           </div>
           <div>
             <Image
-                className='w-{100} p-3'
+                className='w-{100}'
                 src={b2}
                 alt="Picture of the author"
               />
           </div>
           <div>
             <Image
-                className='w-{100} p-3'
+                className='w-{100}'
                 src={b2}
                 alt="Picture of the author"
               />
           </div>
           <div>
             <Image
-                className='w-{100} p-3'
+                className='w-{100}'
                 src={b2}
                 alt="Picture of the author"
               />
           </div>
           <div>
             <Image
-                className='w-{100} p-3'
+                className='w-{100}'
                 src={b2}
                 alt="Picture of the author"
               />
           </div>
           <div>
             <Image
-                className='w-{100} p-3'
+                className='w-{100}'
                 src={b2}
                 alt="Picture of the author"
               />
@@ -207,49 +208,49 @@ const OurPhotos = () => {
         <Slider {...settings} className={`${styles["slick-slider"]} pt-20`}>
           <div>
             <Image
-                className='w-{100} p-3'
+                className='w-{100}'
                 src={b1}
                 alt="Picture of the author"
               />
           </div>
           <div>
             <Image
-                className='w-{100} p-3'
+                className='w-{100}'
                 src={b1}
                 alt="Picture of the author"
               />
           </div>
           <div>
             <Image
-                className='w-{100} p-3'
+                className='w-{100}'
                 src={b1}
                 alt="Picture of the author"
               />
           </div>
           <div>
             <Image
-                className='w-{100} p-3'
+                className='w-{100}'
                 src={b1}
                 alt="Picture of the author"
               />
           </div>
           <div>
             <Image
-                className='w-{100} p-3'
+                className='w-{100}'
                 src={b1}
                 alt="Picture of the author"
               />
           </div>
           <div>
             <Image
-                className='w-{100} p-3'
+                className='w-{100}'
                 src={b1}
                 alt="Picture of the author"
               />
           </div>
           <div>
             <Image
-                className='w-{100} p-3'
+                className='w-{100}'
                 src={b1}
                 alt="Picture of the author"
               />
