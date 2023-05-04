@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image'
-import woman from './assets/woman.jpg'
+import women from './assets/women.jpg'
 import Nav from './Nav';
 import WhatsappIcon from './Whatsappicon';
 
@@ -14,7 +14,7 @@ const AboutUs = () => {
         <div className='w-full relative text-center h-auto'>
           <Image 
             className='w-full h-full brightness-50'
-            src={woman}
+            src={women}
             alt="Picture of the author"
           />
           <div className='text-white absolute top-1/2 w-full'>
