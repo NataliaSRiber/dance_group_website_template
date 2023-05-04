@@ -4,13 +4,14 @@ import woman from './assets/woman.jpg'
 import Nav from './Nav';
 import WhatsappIcon from './Whatsappicon';
 
+
 const AboutUs = () => {
     return (
       <>
         <Nav />
           {/* <div className="bg-indigo-600 text-white font-[Poppins] hover:bg-indigo-400 duration-500 w-full h-64">
           </div> */}
-        <div className='w-full relative text-center h-1/3'>
+        <div className='w-full relative text-center h-auto'>
           <Image 
             className='w-full h-full brightness-50'
             src={woman}
