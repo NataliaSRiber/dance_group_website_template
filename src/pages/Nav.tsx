@@ -10,7 +10,7 @@ export default function Nav() {
   const links = [
     {name: "SOBRE", link: "/"},
     {name: "GALERIA DE FOTOS", link: "/OurPhotos"},
-    {name: "NOSSOS VÍDEOS", link: "/OurYoutubeVideos"},
+    {name: "VÍDEOS", link: "/OurYoutubeVideos"},
     {name: "CONTATO", link: "/Contact"},
   ]
 
