@@ -35,7 +35,7 @@ const Contact = (props: any) => {
           </div>
         </div> */}
         <div className='pt-8 text-xl text-left'>
-          <h1 className='font-medium md:pb-8 text-xl md:text-2xl pb-8'>Diretoria e coordenações</h1>
+          <h1 className='z md:pb-8 text-xl md:text-2xl pb-8'>Diretoria e coordenações</h1>
           <div>
             <p className='font-medium text-lg md:text-lg pb-2'>Joaquina Silva</p>
             <p className='font-light text-sm md:text-lg pb-2'>Presidente</p>
