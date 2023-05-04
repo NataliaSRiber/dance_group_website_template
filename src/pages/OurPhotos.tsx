@@ -11,6 +11,7 @@ import na from './assets/next.png'
 import pa from './assets/back.png'
 import WhatsappIcon from './Whatsappicon';
 import styles from '../styles/banner.module.css'
+import Footer from './Footer';
 
 
 const NextBtn = (props: any) => {
@@ -76,7 +77,7 @@ const OurPhotos = () => {
       <>
         <Nav />
         <h1 className='text-3xl md:text-5xl text-gray-700 font-semibold text-center py-20'>Veja nossa galeria de fotos</h1>
-        <div className='z-0'>
+        <div>
         <Slider {...settings} className={`${styles["slick-slider"]}`}>
           <div>
             <Image
@@ -335,6 +336,7 @@ const OurPhotos = () => {
         </Slider>
         </div>
         <WhatsappIcon />
+        <Footer />
       </>
     );
 }
