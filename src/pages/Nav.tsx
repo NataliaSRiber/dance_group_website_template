@@ -8,10 +8,10 @@ import Link from "next/link";
 
 export default function Nav() {
   const links = [
-    {name: "INÍCIO", link: "/"},
-    {name: "SOBRE", link: "/About"},
+    {name: "SOBRE", link: "/"},
     {name: "GALERIA DE FOTOS", link: "/OurPhotos"},
-    {name: "NOSSOS VÍDEOS", link: "/OurYoutubeVideos"},
+    {name: "VÍDEOS", link: "/OurYoutubeVideos"},
+    {name: "CONTATO", link: "/Contact"},
   ]
 
   const [open, setOpen] = useState(false);
