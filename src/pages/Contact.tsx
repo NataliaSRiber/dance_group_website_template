@@ -35,26 +35,26 @@ const Contact = (props: any) => {
           </div>
         </div> */}
         <div className='pt-8 text-xl text-left'>
-          <h1 className='font-medium md:pb-8 text-md md:text-2xl'>Diretoria e coordenações</h1>
+          <h1 className='font-medium md:pb-8 text-xl md:text-2xl pb-8'>Diretoria e coordenações</h1>
           <div>
-            <p className='font-medium md:pb-2 text-md md:text-lg'>Joaquina Silva</p>
-            <p className='font-light text-xs md:text-lg pb-2'>Presidente</p>
-            <p className='font-light text-xs md:text-lg pb-4'>Contato: (35)99800-2234</p>
+            <p className='font-medium text-lg md:text-lg pb-2'>Joaquina Silva</p>
+            <p className='font-light text-sm md:text-lg pb-2'>Presidente</p>
+            <p className='font-light text-sm md:text-lg pb-4'>Contato: (35)99800-2234</p>
           </div>
           <div>
-            <p className='font-medium md:pb-2 text-md md:text-lg'>Rúbia Rosa</p>
-            <p className='font-light text-xs md:text-lg pb-2'>Vice-Presidente</p>
-            <p className='font-light text-xs md:text-lg pb-6'>Contato: (35)99800-2234</p>
+            <p className='font-medium pb-2 text-md md:text-lg'>Rúbia Rosa</p>
+            <p className='font-light text-sm md:text-lg pb-2'>Vice-Presidente</p>
+            <p className='font-light text-sm md:text-lg pb-6'>Contato: (35)99800-2234</p>
           </div>
           <div>
-            <p className='font-medium md:pb-2 text-md md:text-lg'>Carmen Lúcia</p>
-            <p className='font-light text-xs md:text-lg pb-2'>Tesoureira</p>
-            <p className='font-light text-xs md:text-lg pb-6'>Contato: (35)99800-2234</p>
+            <p className='font-medium pb-2 text-md md:text-lg'>Carmen Lúcia</p>
+            <p className='font-light text-sm md:text-lg pb-2'>Tesoureira</p>
+            <p className='font-light text-sm md:text-lg pb-6'>Contato: (35)99800-2234</p>
           </div>
           <div>
-            <p className='font-medium md:pb-2 text-md md:text-lg'>Lúcio Almeida</p>
-            <p className='font-light text-xs md:text-lg pb-2'>Coordenadora de dança</p>
-            <p className='font-light text-xs md:text-lg pb-6'>Contato: (35)99800-2234</p>
+            <p className='font-medium pb-2 text-md md:text-lg'>Lúcio Almeida</p>
+            <p className='font-light text-sm md:text-lg pb-2'>Coordenadora de dança</p>
+            <p className='font-light text-sm md:text-lg pb-6'>Contato: (35)99800-2234</p>
           </div>
         </div>
       </section>

@@ -22,9 +22,9 @@ const AboutUs = () => {
             <p className='font-light text-xs md:text-xl'>Grupo de dança de Balneário Camboriú, Santa Catarina</p>
           </div>
           </div>
-          <div className='flex flex-col py-20 md:px-20 px-10'>
-            <h1 className='text-3xl md:text-5xl text-gray-700 font-semibold text-center pb-20'>Sobre nós</h1>
-            <p className='text-xl text-justify'>
+          <div className='flex flex-col md:px-20 md:py-20 mx-auto px-10 py-10'>
+            <h1 className='text-3xl md:text-5xl text-gray-700 font-semibold text-center md:pb-20 pb-10'>Sobre nós</h1>
+            <p className='md:text-xl text-md text-justify'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin, velit a luctus vulputate, orci erat consectetur neque, quis dignissim erat ligula at lacus. Quisque nec purus nec augue tristique rutrum ac imperdiet mi. Nulla consectetur risus vel ante venenatis, eu fermentum lorem placerat. Nunc viverra lobortis mauris, id rhoncus elit rutrum quis. Praesent feugiat finibus enim, sed tempor tortor dictum in. Sed eros magna, pulvinar id mollis in, ornare ac nunc. Donec non sagittis felis. Fusce congue quam velit. Vivamus non elit risus. Duis ante nibh, porttitor in ipsum a, luctus dapibus lectus. Praesent facilisis, felis et viverra vehicula, metus turpis accumsan velit, ut sollicitudin risus mauris non nisl. Mauris mattis lobortis mauris ut varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at vehicula est. Proin egestas, nisl eu semper aliquet, libero quam aliquam nunc, nec rhoncus mi nibh ut nunc.
 
                 Curabitur consectetur, erat eu euismod eleifend, mauris nibh feugiat eros, et dignissim lacus augue non ante. Suspendisse venenatis consectetur sem vel mattis. Nunc eget sapien vitae mauris vulputate volutpat quis sed erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam sollicitudin leo neque, vel vulputate mi sagittis a. Cras eget sapien iaculis, egestas leo eget, suscipit risus. Aliquam auctor leo non imperdiet ullamcorper. Curabitur ac justo eget ex dictum vehicula. Ut tristique consequat magna ut convallis.

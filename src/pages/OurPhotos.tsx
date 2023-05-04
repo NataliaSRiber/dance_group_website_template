@@ -34,7 +34,6 @@ const PrevBtn = (props: any) => {
 
 const OurPhotos = () => {
   const settings = {
-    dots: true,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 3,
@@ -60,7 +59,6 @@ const OurPhotos = () => {
           slidesToShow: 2,
           slidesToScroll: 2,
           initialSlide: 1,
-          dots: true,
         }
       },
       {
@@ -68,7 +66,6 @@ const OurPhotos = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          dots: true,
         }
       }
     ]
@@ -76,264 +73,264 @@ const OurPhotos = () => {
     return (
       <>
         <Nav />
-        <h1 className='text-3xl md:text-5xl text-gray-700 font-semibold text-center py-20'>Veja nossa galeria de fotos</h1>
+        <h1 className='text-3xl md:text-5xl text-gray-700 font-semibold text-center md:py-20 py-10 md:px-20 px-10'>Galeria de fotos</h1>
         <div>
-        <Slider {...settings} className={`${styles["slick-slider"]}`}>
-          <div>
-            <Image
-                className='w-{100}'
-                src={b2}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100}'
-                src={b2}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100}'
-                src={b2}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100}'
-                src={b2}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100}'
-                src={b2}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100}'
-                src={b2}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100}'
-                src={b2}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100} m-3'
-                src={b2}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100} m-3'
-                src={b2}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100} m-3'
-                src={b2}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100} m-3'
-                src={b2}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100} m-3'
-                src={b2}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100} m-3'
-                src={b2}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100} m-3'
-                src={b2}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100} m-3'
-                src={b2}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100} m-3'
-                src={b2}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100} m-3'
-                src={b2}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100} m-3'
-                src={b2}
-                alt="Picture of the author"
-              />
-          </div>    
-        </Slider>
-        <Slider {...settings} className={`${styles["slick-slider"]} pt-20`}>
-          <div>
-            <Image
-                className='w-{100}'
-                src={b1}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100}'
-                src={b1}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100}'
-                src={b1}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100}'
-                src={b1}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100}'
-                src={b1}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100}'
-                src={b1}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100}'
-                src={b1}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100} m-3'
-                src={b1}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100} m-3'
-                src={b1}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100} m-3'
-                src={b1}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100} m-3'
-                src={b1}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100} m-3'
-                src={b1}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100} m-3'
-                src={b1}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100} m-3'
-                src={b1}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100} m-3'
-                src={b1}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100} m-3'
-                src={b1}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100} m-3'
-                src={b1}
-                alt="Picture of the author"
-              />
-          </div>
-          <div>
-            <Image
-                className='w-{100} m-3'
-                src={b1}
-                alt="Picture of the author"
-              />
-          </div>    
-        </Slider>
+          <Slider {...settings} className={`${styles["slick-slider"]}`}>
+            <div>
+              <Image
+                  className='w-{100}'
+                  src={b2}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100}'
+                  src={b2}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100}'
+                  src={b2}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100}'
+                  src={b2}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100}'
+                  src={b2}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100}'
+                  src={b2}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100}'
+                  src={b2}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100} m-3'
+                  src={b2}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100} m-3'
+                  src={b2}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100} m-3'
+                  src={b2}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100} m-3'
+                  src={b2}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100} m-3'
+                  src={b2}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100} m-3'
+                  src={b2}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100} m-3'
+                  src={b2}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100} m-3'
+                  src={b2}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100} m-3'
+                  src={b2}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100} m-3'
+                  src={b2}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100} m-3'
+                  src={b2}
+                  alt="Picture of the author"
+                />
+            </div>    
+          </Slider>
+          <Slider {...settings} className={`${styles["slick-slider"]} md:pt-20 pt-10`}>
+            <div>
+              <Image
+                  className='w-{100}'
+                  src={b1}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100}'
+                  src={b1}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100}'
+                  src={b1}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100}'
+                  src={b1}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100}'
+                  src={b1}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100}'
+                  src={b1}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100}'
+                  src={b1}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100} m-3'
+                  src={b1}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100} m-3'
+                  src={b1}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100} m-3'
+                  src={b1}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100} m-3'
+                  src={b1}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100} m-3'
+                  src={b1}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100} m-3'
+                  src={b1}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100} m-3'
+                  src={b1}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100} m-3'
+                  src={b1}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100} m-3'
+                  src={b1}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100} m-3'
+                  src={b1}
+                  alt="Picture of the author"
+                />
+            </div>
+            <div>
+              <Image
+                  className='w-{100} m-3'
+                  src={b1}
+                  alt="Picture of the author"
+                />
+            </div>    
+          </Slider>
         </div>
         <WhatsappIcon />
         <Footer />
