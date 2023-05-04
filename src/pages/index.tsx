@@ -3,7 +3,6 @@ import Footer from './Footer'
 import WhatsappIcon from './Whatsappicon'
 import AboutUs from './About'
 
-
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -11,6 +10,7 @@ export default function Home() {
     <div className='min-h-screen flex flex-col'>
       <AboutUs/>
       <WhatsappIcon />
+      <Footer />
     </div>
   )
 }
