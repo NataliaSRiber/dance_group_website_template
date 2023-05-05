@@ -10,7 +10,7 @@ const OurYoutubeVideos = () => {
       <>
       <Nav/>
         <section className='md:h-full flex items-center text-gray-600'>
-          <div className='container md:px-20 md:py-20 mx-auto py-10'>
+          <div className='container md:px-20 md:py-32 pt-32 pb-16 mx-auto'>
             <div className='text-center md:pb-20 pb-10'>
               {/* <h5 className='text-base mb:text-lg text-blue-700 mb-1'>See Our recent videos</h5> */}
               <h1 className='text-3xl md:text-5xl text-gray-700 font-semibold px-10'>Assista algumas de nossas apresentações</h1>
