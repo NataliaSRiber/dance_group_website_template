@@ -11,7 +11,7 @@ const AboutUs = () => {
         <Nav />
           {/* <div className="bg-indigo-600 text-white font-[Poppins] hover:bg-indigo-400 duration-500 w-full h-64">
           </div> */}
-        <div className='w-full relative text-center h-auto'>
+        <div className='w-full relative text-center h-auto pt-14 md:pt-10'>
           <Image 
             className='w-full h-full brightness-50'
             src={women}

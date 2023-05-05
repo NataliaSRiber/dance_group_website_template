@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function Nav() {
   const links = [
-    {name: "SOBRE", link: "/"},
+    // {name: "SOBRE", link: "/"}, // o logo deve retornar a página inicial
     {name: "GALERIA DE FOTOS", link: "/OurPhotos"},
     {name: "VÍDEOS", link: "/OurYoutubeVideos"},
     {name: "CONTATO", link: "/Contact"},
@@ -27,7 +27,9 @@ export default function Nav() {
       <div className="md:flex items-center justify-between bg-blue-950 py-5 md:px-10 px-7">
         <div className="text-3xl text-white mr-1 pt-2">
           <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins]">
-            <span>Logo</span>
+            <Link href="/">
+              <span>Logo</span>
+            </Link>
           </div>
         </div>
         <div onClick={()=>setOpen(!open)} className="text-3xl absolute right-8 top-7 cursor-pointer md:hidden">
