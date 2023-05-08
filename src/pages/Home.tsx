@@ -5,7 +5,7 @@ import Nav from './Nav';
 import WhatsappIcon from './Whatsappicon';
 
 
-const AboutUs = () => {
+const Home = () => {
     return (
       <>
         <Nav />
@@ -42,4 +42,4 @@ const AboutUs = () => {
 }
 
 
-export default AboutUs;
+export default Home;

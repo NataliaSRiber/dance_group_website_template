@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function Nav() {
   const links = [
-    // {name: "SOBRE", link: "/"}, // o logo deve retornar a página inicial
+    {name: "HOME", link: "/"}, // o logo deve retornar a página inicial
     {name: "GALERIA DE FOTOS", link: "/OurPhotos"},
     {name: "VÍDEOS", link: "/OurYoutubeVideos"},
     {name: "CONTATO", link: "/Contact"},

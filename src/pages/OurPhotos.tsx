@@ -5,6 +5,8 @@ import Slider from 'react-slick';
 // import dance1 from './assets/dance-1.jpg'
 // import dance2 from './assets/dance-2.jpg'
 // import dance3 from './assets/dance-3.jpg'
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import b1 from './assets/yoga.jpg'
 import b2 from './assets/yoga.jpg'
 import na from './assets/next.png'
@@ -34,14 +36,17 @@ const PrevBtn = (props: any) => {
 
 const OurPhotos = () => {
   const settings = {
+    // dots: true,
     // infinite: true,
-    className: "center",
-    centerMode: true,
+    // className: "center",
+    // centerMode: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    speed: 3000,
+    swipeToSlide: true,
+    
+    speed: 500,
     autoplay: true,
-    autoplaySpeed: 500,
+    autoplaySpeed: 4000,
     nextArrow: <NextBtn />,
     prevArrow: <PrevBtn />,
 
@@ -51,7 +56,8 @@ const OurPhotos = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          dots: true
+          dots: true,
+          centerMode: false,
         }
       },
       {
@@ -60,6 +66,8 @@ const OurPhotos = () => {
           slidesToShow: 2,
           slidesToScroll: 2,
           initialSlide: 1,
+          centerMode: false,
+          dots: false,
         }
       },
       {
@@ -67,6 +75,8 @@ const OurPhotos = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          centerMode: false,
+          dots: false,
         }
       }
     ]
@@ -76,7 +86,8 @@ const OurPhotos = () => {
         <Nav />
         <h1 className='text-3xl md:text-5xl text-gray-700 font-semibold text-center md:pt-32 pt-32 pb-16 md:px-20 px-10'>Galeria de fotos</h1>
         <div>
-          <Slider {...settings} className={`${styles["slick-slider"]} pt-4 mx-5`}>
+          <h2 className="text-lg md:text-3xl text-blue-400 font-medium text-center">Apresentação no dia das mães</h2>
+          <Slider {...settings} className={`${styles["slick-slider"]} pt-4 md:mx-3`}>
             <div>
               <Image
                   className='w-{100}'
@@ -204,7 +215,8 @@ const OurPhotos = () => {
                 />
             </div>    
           </Slider>
-          <Slider {...settings} className={`${styles["slick-slider"]} md:pt-20 pt-10 md:pb-20 pb-10`}>
+          <h2 className="text-lg md:text-3xl text-blue-400 font-medium text-center pt-10">Apresentação de Natal</h2>
+          <Slider {...settings} className={`${styles["slick-slider"]} md:pt-20 pt-10 md:mb-20 mb-10 md:mx-3`}>
             <div>
               <Image
                   className='w-auto'
