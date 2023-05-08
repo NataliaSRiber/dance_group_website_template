@@ -1,4 +1,15 @@
-.slick-slider{
-  display: flex;
-  align-items: center;
+.sliderContainer :global .slick-slider{
+  @apply flex items-center;
+}
+
+.sliderContainer :global .slick-list{
+  @apply h-auto mx-[-7];
+}
+
+.sliderContainer :global .slick-track{
+  @apply flex items-center;
+}
+
+.sliderContainer :global .slick-slide{
+  @apply my-0 mx-3;
 }
