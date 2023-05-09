@@ -14,7 +14,7 @@ const NextBtn = (props: any) => {
   const { onClick } = props;
   return (
     <div className='text-blue-950 sm:w-52 w-20' onClick={onClick}>
-      <Image src={na} alt="next-arrow"/>
+      <Image src={na} alt='next-arrow'/>
     </div>
   );
 };
@@ -23,7 +23,7 @@ const PrevBtn = (props: any) => {
   const { onClick } = props;
   return (
     <div className='text-blue-950 sm:w-52 w-20' onClick={onClick}>
-      <Image src={pa} alt="prev-arrow" />
+      <Image src={pa} alt='prev-arrow' />
     </div>
   );
 };
@@ -37,7 +37,7 @@ const Home = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-    cssEase: "linear",
+    cssEase: 'linear',
     nextArrow: <NextBtn />,
     prevArrow: <PrevBtn />,
   }
@@ -46,26 +46,26 @@ const Home = () => {
       <>
         <Nav />
         <div className='w-full'>
-          <Slider ref={slider} {...settings} className={`${styles["slick-slider"]}`}>
+          <Slider ref={slider} {...settings} className={`${styles['slick-slider']}`}>
           <div>
             <Image
                 className=''
                 src={b1}
-                alt="Picture of the author"
+                alt='Picture of the author'
               />
           </div>
           <div>
             <Image
                 className=''
                 src={b2}
-                alt="Picture of the author"
+                alt='Picture of the author'
               />
           </div>
           <div>
             <Image
                 className=''
                 src={b1}
-                alt="Picture of the author"
+                alt='Picture of the author'
               />
           </div>         
         </Slider>
