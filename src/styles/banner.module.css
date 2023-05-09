@@ -3,7 +3,7 @@
 }
 
 .sliderContainer :global .slick-list{
-  @apply h-auto mx-[-7];
+  @apply h-auto;
 }
 
 .sliderContainer :global .slick-track{
@@ -11,9 +11,15 @@
 }
 
 .sliderContainer :global .slick-slide{
-  @apply my-0 mx-3;
+  @apply my-0 mx-0 scale-75 transition-transform duration-300 opacity-50;
 }
 
-.slick-slide {
-  margin: 0 20px;
+.sliderContainer :global .slick-center{
+  @apply scale-110 opacity-100;
 }
+
+/* @media screen and (max-width: 1024px) and (min-width: 480px) {
+  .sliderContainer :global .slick-active {
+    @apply mx-7 scale-110 opacity-100;
+  }
+} */

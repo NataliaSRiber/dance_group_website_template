@@ -20,17 +20,17 @@ const Contact = (props: any) => {
             <p>Contate-nos em nossas redes sociais:</p>
           </div>
           <div className='flex flex-row text-blue-950 justify-around text-3xl md:text-5xl md:w-2/3 lg:w-1/2 pt-10 w-full'>
-            <a href="https://www.instagram.com/" target="_blank">
-              <GrInstagram className="hover:text-blue-600"/>
+            <a href='https://www.instagram.com/' target='_blank'>
+              <GrInstagram className='hover:text-blue-600'/>
             </a>    
-            <a href="https://www.facebook.com/" target="_blank">
-              <GrFacebook className="hover:text-blue-600"/>
+            <a href='https://www.facebook.com/' target='_blank'>
+              <GrFacebook className='hover:text-blue-600'/>
             </a>         
-            <a href="https://www.whatsapp.com/?lang=pt_br" target="_blank">
-              <RiWhatsappFill className="hover:text-blue-600"/>
+            <a href='https://www.whatsapp.com/?lang=pt_br' target='_blank'>
+              <RiWhatsappFill className='hover:text-blue-600'/>
             </a>      
-            <a href="https://www.youtube.com/" target="_blank">
-              <GrYoutube className="hover:text-blue-600"/>
+            <a href='https://www.youtube.com/' target='_blank'>
+              <GrYoutube className='hover:text-blue-600'/>
             </a>
           </div>
         </div> */}
