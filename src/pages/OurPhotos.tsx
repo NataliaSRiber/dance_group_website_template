@@ -83,7 +83,7 @@ const OurPhotos = () => {
     return (
       <>
         <Nav />
-        <section>
+        <section className='body-font font-instrument'>
           <h1 className='text-3xl md:text-5xl text-gray-700 font-semibold text-center md:pt-32 pt-32 pb-10'>Galeria de fotos</h1>
           <div className={`${styles.sliderContainer} w-full`}>
             <div className='flex flex-col md:px-20 px-10'>

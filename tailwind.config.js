@@ -5,9 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      // fontFamily: {
-      //   mono: ['Consolas']
-      // },
+      fontFamily: {
+        instrument: ['Instrument Serif', 'serif']
+      },
     },
   },
   plugins: [],

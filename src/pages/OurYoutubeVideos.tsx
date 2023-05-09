@@ -9,7 +9,7 @@ const OurYoutubeVideos = () => {
     return (
       <>
       <Nav/>
-        <section className='md:h-full flex items-center text-gray-600'>
+        <section className='md:h-full flex items-center text-gray-600 body-font font-instrument'>
           <div className='container md:px-20 md:py-32 pt-32 pb-16 mx-auto'>
             <div className='text-center md:pb-20 pb-10'>
               {/* <h5 className='text-base mb:text-lg text-blue-700 mb-1'>See Our recent videos</h5> */}
