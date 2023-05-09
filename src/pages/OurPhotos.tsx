@@ -81,13 +81,13 @@ const OurPhotos = () => {
     <>
       <Nav />
       <section>
-        <h1 className='text-3xl md:text-5xl text-gray-700 font-semibold text-center md:pt-32 pt-32 pb-10'>Galeria de fotos</h1>
+        <h1 className='text-3xl md:text-5xl text-gray-700 font-semibold text-center md:pt-32 pt-32'>Galeria de fotos</h1>
         <div className={`${styles.sliderContainer} w-full`}>
           {presentations.map(({title, description, pictures}) => (
             <>
               <div className='flex flex-col md:px-20 px-10'>
-                <h2 className='text-xl md:text-2xl font-medium pb-8 text-center text-blue-400'>{title}</h2>
-                <p className='text-justify md:text-xl text-md'>{description}</p>
+                <h2 className='text-xl md:text-2xl font-medium py-10 text-center text-blue-400'>{title}</h2>
+                <p className='text-justify md:text-xl text-md pb-10'>{description}</p>
               </div>
               <Slider {...settings} className=''>
                 {pictures.map((img) =>(
