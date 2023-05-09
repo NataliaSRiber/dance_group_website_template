@@ -37,7 +37,7 @@ export default function Nav() {
           {!open && <GiHamburgerMenu color="white"/>}        
         </div>
         {/* o z-[-1]  esta dando problema procurar sobre */}
-        <ul className={`z-[-1] md:flex md:items-center md:pb-0 pb-12 fixed md:static bg-blue-950 md:z-auto left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-[1200ms] ease-in ${open ? 'top-20 h-full': 'top-[-1024px] h-full'}`}>
+        <ul className={`z-[-1] md:flex md:items-center md:pb-0 pb-12 fixed md:static bg-blue-950 md:z-auto left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-[1000ms] ease-in ${open ? 'top-20 h-full': 'top-[-1080px] h-full'}`}>
           { 
             links.map(({name, link}, index)=>
               <li key={index} className="md:ml-8 text-l font-bold md:my-0 my-7">
