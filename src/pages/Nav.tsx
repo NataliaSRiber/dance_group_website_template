@@ -22,7 +22,7 @@ export default function Nav() {
   })
 
   return (
-    <section className="z-10 fixed top-0 shadow-md w-full body-font font-instrument">
+    <section className='z-10 fixed top-0 shadow-md w-full body-font font-instrument'>
       {/* alterei o py de py-4 para p-5 e assim removeu o espaço entre os menus */}
       <div className='md:flex items-center justify-between bg-blue-950 py-5 md:px-10 px-7'>
         <div className='text-3xl text-white mr-1 pt-2'>
