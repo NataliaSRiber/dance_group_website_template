@@ -80,7 +80,7 @@ const OurPhotos = () => {
   return (
     <>
       <Nav />
-      <section>
+      <section className='pb-20'>
         <h1 className='text-3xl md:text-5xl text-gray-700 font-semibold text-center md:pt-32 pt-32'>Galeria de fotos</h1>
         <div className={`${styles.sliderContainer} w-full`}>
           {presentations.map(({title, description, pictures}) => (
