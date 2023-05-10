@@ -10,28 +10,26 @@ import styles from '../styles/banner.module.css'
 import { IoIosArrowForward, IoIosArrowBack } from 'react-icons/io';
 import presentations from './api/presentations';
 
-
-
-const NextBtn = (props: any) => {
-  const { onClick, visibility } = props;
-  
-  return (
-    <div className={`${visibility} cursor-pointer`} onClick={onClick}>
-      <IoIosArrowForward className='text-3xl md:text-5xl text-blue-950 hover:text-blue-700 duration-300'/>
-    </div>
-  );
-};
-
-const PrevBtn = (props: any) => {
-  const { onClick, visibility } = props;
-  return (
-    <div className={`${visibility} cursor-pointer `} onClick={onClick}>
-      <IoIosArrowBack className='text-3xl md:text-5xl text-blue-950 hover:text-blue-700 duration-300'/>
-    </div>
-  );
-};
-
 const OurPhotos = () => {
+  const NextBtn = (props: any) => {
+    const { onClick, visibility } = props;
+    
+    return (
+      <div className={`${visibility} cursor-pointer`} onClick={onClick}>
+        <IoIosArrowForward className='text-3xl md:text-5xl text-blue-950 hover:text-blue-700 duration-300'/>
+      </div>
+    );
+  };
+
+  const PrevBtn = (props: any) => {
+    const { onClick, visibility } = props;
+    return (
+      <div className={`${visibility} cursor-pointer `} onClick={onClick}>
+        <IoIosArrowBack className='text-3xl md:text-5xl text-blue-950 hover:text-blue-700 duration-300'/>
+      </div>
+    );
+  };
+
   const settings = {
     infinite: true,
     centerMode: true,
