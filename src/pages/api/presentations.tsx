@@ -12,7 +12,7 @@ export default [
     videoUrl: 'https://www.youtube.com/embed/xNRJwmlRBNU'
   },
   {
-    title: 'Apresentação dia das natal',
+    title: 'Apresentação de Natal',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at lorem et neque rhoncus sagittis vel vitae urna. Aenean feugiat orci in fermentum malesuada. Donec libero erat, bibendum eget vehicula nec, vestibulum id mauris.',
     date: 'October 21, 2020',
     pictures: [dance1, dance2, dance3, b1, dance1, dance2, dance3, b1],
