@@ -28,7 +28,7 @@ const PrevBtn = (props: any) => {
   );
 };
 
-const Home = () => {
+const Homes = () => {
   const slider = React.useRef(null);
   const settings = {
     dots: true,
@@ -75,4 +75,4 @@ const Home = () => {
 }
 
 
-export default Home;
+export default Homes;
