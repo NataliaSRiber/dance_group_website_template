@@ -8,17 +8,10 @@ import whatsIcon from './assets/whatsApp.svg.png'
 const ChatBox = () => {
   const [open, setOpen] = useState(false);
   const [animation, setAnimation] = useState(false);
-  const [delay, setDelay] = useState(1200);
 
   useEffect(() => {
     setAnimation(true);
   }, [])
-
-  useEffect(() => {
-    setTimeout(() => {
-      setDelay(0);
-    }, 2000);
-  }, [animation])
   
   const chatToggle = () => {
     setOpen(!open);
@@ -49,11 +42,11 @@ const ChatBox = () => {
             </button>
           </a>
         </div>
-        <div className={`${!open ? 'flex z-10' : 'hidden'} ${animation && `transition transform scale-100 duration-300 delay-[1200ms]`} scale-0 flex items-center justify-center rounded-full text-green-500 fixed bottom-0 right-0 cursor-pointer px-1 py-2 m-2`}>
-          <span className='z-[-1] animate-ping absolute h-2/4 w-2/4 rounded-full bg-green-700 opacity-75'></span>
+        <div className={`${!open ? 'flex z-10' : 'hidden'} ${animation && `transition transform scale-100 duration-500 delay-[2000ms]`} scale-0 flex items-center justify-center rounded-full text-green-500 fixed bottom-0 right-0 cursor-pointer px-1 py-2 m-2`}>
+          <span className='z-[-1] animate-ping absolute h-[45%] w-[45%] rounded-full bg-green-700 opacity-75'></span>
           <button type='button' onClick={chatToggle}>
             <Image
-              className='h-16 w-16 hover:scale-110 duration-500'
+              className='h-16 w-16 hover:scale-[120%] duration-500'
               src={whatsIcon}
               alt='whatsapp icon'
             />
