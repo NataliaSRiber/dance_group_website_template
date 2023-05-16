@@ -2,7 +2,7 @@ import React from 'react';
 import Nav from './Nav';
 import Footer from './Footer';
 import presentations from './api/presentations';
-import ChatDiv from './ChatDiv';
+import ChatBox from './ChatBox';
 
 const Videos = () => {
     return (
@@ -29,7 +29,7 @@ const Videos = () => {
             </div>
           </div>
         </section>
-        <ChatDiv />
+        <ChatBox />
         <Footer />
       </>
     );

@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from './Nav';
 import Footer from './Footer';
-import ChatDiv from './ChatDiv';
+import ChatBox from './ChatBox';
 
 
 
@@ -56,7 +56,7 @@ const Contact = (props: any) => {
           </div>
         </div>
       </section>
-      <ChatDiv />
+      <ChatBox />
       <Footer />
       </>
     );

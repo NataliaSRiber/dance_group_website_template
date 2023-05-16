@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Image from 'next/image'
 import women from './assets/women.jpg'
 import Nav from './Nav';
-import ChatDiv from './ChatDiv';
+import ChatBox from './ChatBox';
 
 const Home = () => {
   const [animation, setAnimation] = useState(false);
@@ -39,7 +39,7 @@ const Home = () => {
               Etiam hendrerit ante dui, in finibus diam sollicitudin ac. Fusce lobortis orci ligula, quis molestie arcu hendrerit nec. Duis eu nulla vel mi fringilla molestie vel id massa. Curabitur ut malesuada dui. Duis pretium lacus id dui sagittis pretium. Ut accumsan quam a risus tempor, interdum pellentesque erat pulvinar. Nunc massa neque, mollis in congue id, scelerisque at ipsum. Nam aliquam tellus non ligula mollis cursus. In vel molestie nulla, non mattis turpis. Nunc sed urna ac lacus ultricies aliquam sodales nec massa.
           </p>
         </div>
-        <ChatDiv/>
+        <ChatBox/>
       </>
     );
 }
