@@ -11,19 +11,11 @@
 }
 
 .sliderContainer :global .slick-slide{
-  @apply my-0 mx-0 scale-75 transition-transform duration-700 opacity-50;
+  @apply my-0 mx-0 scale-75 transition-transform duration-1000 opacity-50;
 }
 
 .sliderContainer :global .slick-center{
-  @apply scale-110 skew-y-0 opacity-100;
-}
-
-.sliderContainer :global .slick-slide img.nextSlide{
-  @apply skew-y-12 transition-transform duration-700;
-}
-
-.sliderContainer :global .slick-slide img.prevSlide{
-  @apply -skew-y-12 transition-transform duration-700;
+  @apply scale-110 opacity-100;
 }
 
 /* @media screen and (max-width: 1024px) and (min-width: 480px) {
