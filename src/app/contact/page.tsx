@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <>
       <section className="flex flex-col px-10 pb-16 pt-32 md:px-20 md:py-32">
-        <h1 className="pb-10 text-center text-3xl font-semibold text-gray-700 md:text-5xl">
+        <h1 className="pb-10 text-center text-2xl font-semibold text-gray-700 md:text-5xl">
           Contato
         </h1>
         <div className="text-left text-xl">
@@ -47,6 +47,9 @@ export default function Contact() {
             </p>
             <p className="pb-6 text-sm font-light md:text-lg">
               Contato: (35)99800-2234
+            </p>
+            <p className="pb-6 text-sm font-light md:text-lg">
+              Email: grupodança@lalla.com.br
             </p>
           </div>
         </div>

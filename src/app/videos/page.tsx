@@ -7,7 +7,7 @@ export default function OurYouTubeVideos() {
       <section className="flex items-center text-gray-600 md:h-full">
         <div className="container mx-auto pb-16 pt-32 md:px-20 md:py-32">
           <div className="pb-10 text-center md:pb-20">
-            <h1 className="px-10 text-3xl font-semibold text-gray-700 md:text-5xl">
+            <h1 className="px-10 text-2xl font-semibold text-gray-700 md:text-5xl">
               Assista algumas de nossas apresentações
             </h1>
           </div>
