@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
-import women from '../assets/women.jpg'
+import women from '../assets/main-photo.jpg'
 import Nav from './components/Nav'
 
 export default function Home() {
