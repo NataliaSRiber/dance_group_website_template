@@ -24,7 +24,7 @@ export default function Footer() {
           </div>
         </div>
       </footer>
-      <div className="bg-blue-800 py-1 text-center text-[10px] text-white md:text-xs">
+      <div className="bg-black py-1 text-center text-[10px] text-white md:text-xs">
         Site desenvolvido por @NJLinger 2023, todos os direitos reservados.
       </div>
     </>
