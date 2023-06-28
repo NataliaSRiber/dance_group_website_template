@@ -75,7 +75,7 @@ export default function OurPhotos() {
   return (
     <>
       <section className="pb-16">
-        <h1 className="pt-32 text-center text-3xl font-semibold text-gray-700 md:pt-32 md:text-5xl">
+        <h1 className="pt-32 text-center text-2xl font-semibold text-gray-700 md:pt-32 md:text-5xl">
           Galeria de fotos
         </h1>
         <div className={`${styles.sliderContainer} w-full`}>
@@ -92,7 +92,7 @@ export default function OurPhotos() {
               <Slider {...settings}>
                 {pictures.map((img, index) => (
                   <div key={index}>
-                    <Image src={img} alt="Picture of the author" />
+                    <Image src={img} alt="dance-photos" />
                   </div>
                 ))}
               </Slider>

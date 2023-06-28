@@ -9,7 +9,8 @@ import { usePathname } from 'next/navigation'
 
 const links = [
   { name: 'HOME', link: '/' },
-  { name: 'GALERIA DE FOTOS', link: '/gallery' },
+  { name: 'SOBRE', link: '/about' },
+  { name: 'FOTOS', link: '/gallery' },
   { name: 'VÍDEOS', link: '/videos' },
   { name: 'CONTATO', link: '/contact' },
 ]
