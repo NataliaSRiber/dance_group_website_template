@@ -14,7 +14,7 @@ const links = [
   { name: 'CONTATO', link: '/contact' },
 ]
 
-export default function MenuMobile() {
+export default function Menu() {
   const currentRoute = usePathname()
 
   const [open, setOpen] = useState<boolean>(false)
@@ -30,7 +30,7 @@ export default function MenuMobile() {
     if (link === currentRoute) {
       return 'text-blue-400'
     }
-    return 'text-white'
+    return 'text-gray-100'
   }
 
   return (

@@ -20,6 +20,7 @@ export default function ChatBox() {
 
   return (
     <>
+      {/* Chat Top */}
       <div
         className={`${
           open ? 'z-0 opacity-100' : 'z-[-1] opacity-0'
@@ -34,14 +35,14 @@ export default function ChatBox() {
             <AiOutlineClose className="h-6 w-6" />
           </div>
         </div>
-        <div className="my-4 flex w-full flex-col bg-white">
-          <div className="flex items-center px-4 text-xl font-normal text-gray-700">
-            <div className="flex w-full items-center rounded-full border-2 p-4 shadow-lg shadow-gray-300">
-              <p className="text-lg">Olá, podemos ajudar?</p>
-            </div>
+        <div className="w-full p-4">
+          <div className="flex w-full items-center rounded-full border-2 p-4 text-lg font-normal text-gray-700 shadow-lg shadow-gray-300">
+            <p>Olá, podemos ajudar?</p>
           </div>
         </div>
       </div>
+
+      {/* Chat Bot */}
       <div
         className={`${
           open
@@ -77,6 +78,8 @@ export default function ChatBox() {
           </button>
         </a>
       </div>
+
+      {/* Chat Closed */}
       <div
         className={`${!open ? 'z-0 flex' : 'hidden'} ${
           animation &&

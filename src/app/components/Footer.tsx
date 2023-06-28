@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <>
-      <footer className="h-auto w-full bg-blue-950 py-2 text-white md:px-6">
+      <footer className="h-auto w-full bg-blue-950 py-2 text-gray-100 md:px-6">
         <div className="flex flex-row justify-around space-x-2 py-2 pl-2 md:pb-2">
           <div className="text-center">
             <h2 className="pb-2 text-center text-lg font-bold md:text-xl">
@@ -24,7 +24,7 @@ export default function Footer() {
           </div>
         </div>
       </footer>
-      <div className="bg-blue-800 py-1 text-center text-[10px] text-white md:text-xs">
+      <div className="bg-blue-800 py-1 text-center text-[10px] text-gray-100 md:text-xs">
         Site desenvolvido por @NJLinger 2023, todos os direitos reservados.
       </div>
     </>

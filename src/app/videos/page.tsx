@@ -23,7 +23,7 @@ export default function OurYouTubeVideos() {
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                       allowFullScreen
                     ></iframe>
-                    <div className="cursor-pointer p-6 transition duration-300 ease-in hover:bg-blue-950 hover:text-white">
+                    <div className="cursor-pointer p-6 transition duration-300 ease-in hover:bg-blue-950 hover:text-gray-100">
                       <h2 className="mb-1 text-sm font-medium text-blue-300 md:text-base">
                         {date}
                       </h2>
