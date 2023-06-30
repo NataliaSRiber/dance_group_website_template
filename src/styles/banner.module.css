@@ -1,9 +1,9 @@
 .sliderContainer :global .slick-slider{
-  @apply flex items-center;
+  @apply flex items-center ;
 }
 
 .sliderContainer :global .slick-list{
-  @apply h-auto;
+  @apply h-auto ;
 }
 
 .sliderContainer :global .slick-track{
