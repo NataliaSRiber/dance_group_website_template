@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import about from '../../assets/about.jpeg'
+import aboutMobile from '../../assets/about-mobile.jpg'
 
 export default function Home() {
   const [animation, setAnimation] = useState(false)
@@ -19,8 +20,13 @@ export default function Home() {
         } relative h-auto w-full pt-14 text-center opacity-0 transition-all delay-300 duration-700 ease-in md:pt-10`}
       >
         <Image
-          className="h-full w-full brightness-50"
+          className="hidden h-full w-full brightness-50 md:block"
           src={about}
+          alt="Picture of the author"
+        />
+        <Image
+          className="block h-screen w-full brightness-50 md:hidden"
+          src={aboutMobile}
           alt="Picture of the author"
         />
         <div className="absolute top-1/2 w-full truncate text-white">

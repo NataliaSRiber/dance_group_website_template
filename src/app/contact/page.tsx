@@ -1,14 +1,15 @@
 import React from 'react'
+import MapComponent from '../components/MapComponent'
 
 export default function Contact() {
   return (
-    <>
-      <section className="flex flex-col px-10 pb-16 pt-32 md:px-20 md:py-32">
+    <section className="flex flex-col pb-16 pt-32 md:px-20 md:py-32">
+      <div className="flex flex-col px-10">
         <h1 className="pb-10 text-center text-2xl font-semibold text-gray-700 md:text-5xl">
           Contato
         </h1>
         <div className="text-left text-xl">
-          <h1 className="z pb-8 text-center text-xl font-bold text-blue-400 md:pb-8 md:text-2xl">
+          <h1 className="pb-8 text-center text-xl font-bold text-blue-400 md:pb-8 md:text-2xl">
             Diretoria e coordenações
           </h1>
           <div>
@@ -53,7 +54,8 @@ export default function Contact() {
             </p>
           </div>
         </div>
-      </section>
-    </>
+      </div>
+      <MapComponent />
+    </section>
   )
 }
