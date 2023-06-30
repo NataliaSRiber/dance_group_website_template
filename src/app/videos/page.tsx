@@ -5,7 +5,7 @@ export default function OurYouTubeVideos() {
   return (
     <>
       <section className="flex items-center text-gray-600 md:h-full">
-        <div className="container mx-auto pb-16 pt-32 md:px-20 md:py-32">
+        <div className="container mx-auto pb-16 pt-32">
           <div className="pb-10 text-center md:pb-20">
             <h1 className="px-10 text-2xl font-semibold text-gray-700 md:text-5xl">
               Assista algumas de nossas apresentações
@@ -14,7 +14,7 @@ export default function OurYouTubeVideos() {
           <div className="flex flex-wrap justify-center">
             {presentations.map(
               ({ title, description, date, videoUrl }, index) => (
-                <div key={index} className="p-4 md:w-1/2 lg:w-1/3">
+                <div key={index} className="p-4 md:w-1/2 xl:w-1/3">
                   <div className="h-full overflow-hidden rounded-lg border-2 border-gray-200 border-opacity-60">
                     <iframe
                       className="aspect-video w-full"
