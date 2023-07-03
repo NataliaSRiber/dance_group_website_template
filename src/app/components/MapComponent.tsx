@@ -16,8 +16,8 @@ export default function MapComponent() {
       <h1 className="pb-8 text-center text-xl font-bold text-blue-400 md:pb-8 md:text-2xl">
         Localização
       </h1>
-      <p className="px-6 pb-6 text-left text-sm font-light md:px-10 md:text-lg">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      <p className="px-2 pb-6 text-left text-sm font-light md:px-10 md:text-lg">
+        Lorem ipsum dolor sit amet elit.
       </p>
       {isLoaded ? (
         <GoogleMap

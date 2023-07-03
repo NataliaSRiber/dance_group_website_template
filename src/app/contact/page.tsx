@@ -4,7 +4,7 @@ import MapComponent from '../components/MapComponent'
 export default function Contact() {
   return (
     <section className="flex flex-col pb-16 pt-32 md:px-20 md:py-32">
-      <div className="flex flex-col px-10">
+      <div className="flex flex-col px-6">
         <h1 className="pb-10 text-center text-2xl font-semibold text-gray-700 md:text-5xl">
           Contato
         </h1>

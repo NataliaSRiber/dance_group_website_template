@@ -48,7 +48,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="mx-auto flex flex-col px-10 py-10 md:px-20 md:py-20">
+      <div className="mx-auto flex flex-col px-6 py-10 md:px-20 md:py-20">
         <h1 className="pb-10 text-center text-2xl font-semibold text-gray-700 md:pb-20 md:text-5xl">
           Sobre nós
         </h1>
