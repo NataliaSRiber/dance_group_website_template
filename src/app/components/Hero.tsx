@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import main from '../../assets/main-photo.jpg'
-import mainMobile from '../../assets/home-mobile.png'
 
 import Link from 'next/link'
 
@@ -22,13 +21,8 @@ export default function Hero() {
         } relative h-auto w-full pt-14 text-center opacity-0 transition-all delay-300 duration-700 ease-in md:pt-10`}
       >
         <Image
-          className="hidden h-full w-full pt-10 brightness-50 md:block"
+          className="h-screen w-full object-cover object-center brightness-50 md:h-full"
           src={main}
-          alt="Picture of the author"
-        />
-        <Image
-          className="block h-screen w-full pt-6 brightness-50 md:hidden"
-          src={mainMobile}
           alt="Picture of the author"
         />
         <div className="absolute top-1/2 w-full truncate text-white">
@@ -44,7 +38,7 @@ export default function Hero() {
             className={`${
               animation &&
               'translate-x-[-100%] transform transition delay-1000 duration-[900ms] ease-in'
-            } relative right-[-100%] pb-6 text-xs font-light md:pb-20 md:text-xl`}
+            } font-regular relative right-[-100%] pb-6 text-sm md:pb-20 md:text-xl`}
           >
             Venha aprender a dançar conosco!
           </p>

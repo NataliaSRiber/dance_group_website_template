@@ -25,16 +25,16 @@ export default function Home() {
           alt="Picture of the author"
         />
         <Image
-          className="block h-screen w-full brightness-50 md:hidden"
+          className="block h-screen w-full object-cover object-center brightness-50 md:hidden"
           src={aboutMobile}
           alt="Picture of the author"
         />
-        <div className="absolute top-1/2 w-full truncate text-white">
+        <div className="absolute top-1/2 flex w-full flex-col truncate px-2 text-white">
           <h1
             className={`${
               animation &&
               'translate-x-full transform transition delay-1000 duration-[900ms] ease-in'
-            } text-md relative left-[-100%] font-bold tracking-wide md:pb-8 md:text-5xl`}
+            } text-md relative left-[-100%] pb-4 font-bold tracking-wide md:pb-8 md:text-5xl`}
           >
             Grupo de Dança
           </h1>
@@ -42,9 +42,9 @@ export default function Home() {
             className={`${
               animation &&
               'translate-x-[-100%] transform transition delay-1000 duration-[900ms] ease-in'
-            } relative right-[-100%] text-xs font-light md:text-xl`}
+            } font-regular relative right-[-100%] py-2 text-center text-sm md:text-xl`}
           >
-            Grupo de dança de Esperança, São Paulo
+            Grupo de dança de Rio, São Paulo
           </p>
         </div>
       </div>
