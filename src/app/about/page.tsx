@@ -29,12 +29,12 @@ export default function Home() {
           src={aboutMobile}
           alt="Picture of the author"
         />
-        <div className="absolute top-1/2 flex w-full flex-col truncate px-2 text-white">
+        <div className="absolute top-1/2 flex w-full flex-col px-2 text-white">
           <h1
             className={`${
               animation &&
               'translate-x-full transform transition delay-1000 duration-[900ms] ease-in'
-            } text-md relative left-[-100%] pb-4 font-bold tracking-wide md:pb-8 md:text-5xl`}
+            } relative left-[-100%] pb-4 text-2xl font-bold tracking-wide md:pb-8 md:text-5xl`}
           >
             Grupo de Dança
           </h1>
@@ -42,7 +42,7 @@ export default function Home() {
             className={`${
               animation &&
               'translate-x-[-100%] transform transition delay-1000 duration-[900ms] ease-in'
-            } font-regular relative right-[-100%] py-2 text-center text-sm md:text-xl`}
+            } font-regular relative right-[-100%] h-auto px-2 py-2 text-center text-base md:text-xl`}
           >
             Grupo de dança de Rio, São Paulo
           </p>
