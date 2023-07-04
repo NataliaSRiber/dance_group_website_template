@@ -5,8 +5,9 @@
 }
 
 .ReactModal__Content{
- inset: 0px !important;
- background-color: transparent !important;
+  inset: 0px !important;
+  overflow: hidden !important;
+  background-color: transparent !important;
 }
 
 .ReactModal__Overlay--after-open{
