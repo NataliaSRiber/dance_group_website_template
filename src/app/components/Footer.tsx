@@ -20,7 +20,7 @@ export default function Footer() {
             <p className="text-sm md:text-base">
               Av. Amaral Peixoto, nº0, Bairro Liberdade
             </p>
-            <p className="text-sm md:text-lg">Esperança - SP</p>
+            <p className="text-sm md:text-lg">Rio - SP</p>
           </div>
         </div>
       </footer>

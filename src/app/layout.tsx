@@ -1,11 +1,11 @@
 import { ReactNode } from 'react'
 import Nav from './components/Nav'
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Sora } from 'next/font/google'
 import Footer from './components/Footer'
 import ChatBox from './components/ChatBox'
 
-const inter = Inter({ subsets: ['latin'] })
+const sora = Sora({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Dance website template',
@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-gray-100`}>
+      <body className={`${sora.className} bg-gray-100`}>
         <Nav />
         {children}
         <ChatBox />
