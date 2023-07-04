@@ -1,9 +1,10 @@
 'use client'
 
-import React, { useEffect, useState } from 'react'
+import Slider from 'react-slick'
+import React, { useEffect, useRef, useState } from 'react'
 import { StaticImageData } from 'next/image'
 import styles from '../../styles/banner.module.css'
-import { presentations } from '../api/presentations'
+import { presentations } from '../lib/presentations'
 import '../../styles/modal.css'
 import Carousel from '../components/Carousel'
 import ImageViewer from '../components/ImageViewer'
@@ -11,6 +12,7 @@ import ImageViewer from '../components/ImageViewer'
 export default function OurPhotos() {
   const [modalIsOpen, setIsOpen] = useState<boolean>(false)
   const [imageSource, setImageSource] = useState<StaticImageData | undefined>()
+  const sliderWithRef = useRef<Slider | null>(null)
 
   function toggleModal(img?: StaticImageData) {
     setIsOpen(!modalIsOpen)
@@ -18,10 +20,14 @@ export default function OurPhotos() {
   }
 
   useEffect(() => {
-    // scroll lock quando o ImageViewer é aberto.
-    modalIsOpen
-      ? (document.body.style.overflow = 'hidden')
-      : (document.body.style.overflow = 'auto')
+    if (!modalIsOpen) {
+      document.body.style.overflow = 'auto'
+      sliderWithRef?.current?.slickPlay()
+    }
+    if (modalIsOpen) {
+      document.body.style.overflow = 'hidden'
+      sliderWithRef?.current?.slickPause()
+    }
   }, [modalIsOpen])
 
   return (
@@ -33,15 +39,19 @@ export default function OurPhotos() {
         <div className={`${styles.sliderContainer} w-full`}>
           {presentations.map(({ title, description, pictures }, index1) => (
             <div key={index1} className="mb-10">
-              <div className="flex flex-col px-10 md:px-20">
+              <div className="flex flex-col px-6 md:px-20">
                 <h2 className="py-10 text-center text-xl font-medium text-blue-400 md:text-2xl">
                   {title}
                 </h2>
-                <p className="text-md pb-10 text-justify md:text-xl">
+                <p className="text-md mb-10 text-justify md:text-xl">
                   {description}
                 </p>
               </div>
-              <Carousel pictures={pictures} toggleModal={toggleModal} />
+              <Carousel
+                pictures={pictures}
+                toggleModal={toggleModal}
+                sliderWithRef={sliderWithRef}
+              />
             </div>
           ))}
         </div>

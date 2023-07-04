@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { MutableRefObject } from 'react'
 import Image, { StaticImageData } from 'next/image'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
@@ -32,11 +32,10 @@ const settings = {
   slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 4000,
+  autoplaySpeed: 6000,
   nextArrow: <NextBtn visibility={'visible'} />,
   prevArrow: <PrevBtn visibility={'visible'} />,
   pauseOnHover: true,
-  pauseOnFocus: true,
   swipeToSlide: true,
   dots: true,
   responsive: [
@@ -62,20 +61,26 @@ const settings = {
 interface IProps {
   pictures: Array<StaticImageData>
   toggleModal: Function
+  sliderWithRef: MutableRefObject<Slider | null>
 }
 
 export default function Carousel(props: IProps) {
-  const { pictures, toggleModal } = props
+  const { pictures, toggleModal, sliderWithRef } = props
+
   return (
     <>
-      <Slider {...settings}>
-        {pictures.map((img: any, index: any) => (
+      <Slider ref={(slider) => (sliderWithRef.current = slider)} {...settings}>
+        {pictures.map((img: StaticImageData, index: number) => (
           <div key={index}>
             <button
-              disabled={screen.width <= 640}
+              // disabled={screen.width <= 640}
               onClick={() => toggleModal(img)}
             >
-              <Image src={img} alt="dance-picture" />
+              <Image
+                src={img}
+                alt="dance-picture"
+                className="max-h-40 object-cover object-center 2xs:max-h-72 xs:max-h-96 sm:max-h-56 md:max-h-72 lg:max-h-96 xl:max-h-80 2xl:max-h-96"
+              />
             </button>
           </div>
         ))}
