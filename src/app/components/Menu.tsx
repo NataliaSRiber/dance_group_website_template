@@ -6,7 +6,7 @@ import { AiOutlineClose } from 'react-icons/ai'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { routes } from '../api/routes'
+import { routes } from '../lib/routes'
 
 export default function Menu() {
   const currentRoute = usePathname()
@@ -45,7 +45,7 @@ export default function Menu() {
           <li key={index} className="text-l my-7 font-bold md:my-0 md:ml-8">
             <Link
               href={route}
-              onClick={() => setOpen(!open)}
+              onClick={() => open && setOpen(false)}
               className={`${changeCurrentPageTextColor(
                 route,
               )} hover:text-blue-400`}
