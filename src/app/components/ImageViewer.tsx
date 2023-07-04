@@ -18,23 +18,27 @@ export default function ImageViewer(props: IProps) {
     <>
       {imageSource?.src && (
         <Modal
-          className="modal absolute left-1/2 top-1/2 z-20 h-auto w-full -translate-x-1/2 -translate-y-1/2 px-5 xl:w-3/4"
           closeTimeoutMS={500}
           isOpen={modalIsOpen}
           onRequestClose={() => toggleModal()}
           preventScroll={false}
         >
-          <>
+          <div
+            onClick={() => toggleModal()}
+            className="modal absolute left-1/2 top-1/2 z-20 flex h-full w-full -translate-x-1/2 -translate-y-1/2 items-center justify-center bg-transparent"
+          >
             <button
-              className="absolute right-0 top-7 mx-10"
+              className="absolute right-0 top-0 m-5"
               onClick={() => toggleModal()}
             >
-              <AiOutlineClose className="h-7 w-7 text-blue-950 hover:text-blue-400" />
+              <AiOutlineClose className="h-8 w-8 font-extrabold text-blue-950 hover:text-blue-400 xl:h-10 xl:w-10" />
             </button>
-            <div>
-              <Image src={imageSource} alt="dance-photos" />
-            </div>
-          </>
+            <Image
+              src={imageSource}
+              alt="dance-photos"
+              className="max-w-screen h-auto max-h-screen w-auto p-5 sm:p-12"
+            />
+          </div>
         </Modal>
       )}
     </>
