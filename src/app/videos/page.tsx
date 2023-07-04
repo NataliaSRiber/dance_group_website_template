@@ -1,5 +1,5 @@
 import React from 'react'
-import { presentations } from '../api/presentations'
+import { presentations } from '../lib/presentations'
 
 export default function OurYouTubeVideos() {
   return (
