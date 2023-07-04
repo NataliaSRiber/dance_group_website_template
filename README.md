@@ -34,14 +34,6 @@ Para iniciar é necessário ter instalado na máquina as seguintes ferramentas:
 ### Rodando o Front-End 
 
 ```bash
-# Clone este repositório com a chave SSH ou HTTP a depender de como seu git está configurado.
-
-# Acesse a pasta do projeto no terminal/cmd
-$ cd website-test
-
-# Instale as dependências
-$ npm install
-
 # Execute a aplicação em modo de desenvolvimento
 $ npm run dev
 
