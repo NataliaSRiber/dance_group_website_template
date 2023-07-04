@@ -25,7 +25,7 @@ export default function Hero() {
           src={main}
           alt="Picture of the author"
         />
-        <div className="absolute top-1/2 flex w-full flex-col text-white">
+        <div className="absolute top-1/2 flex w-full flex-col truncate text-white">
           <h1
             className={`${
               animation &&
@@ -38,7 +38,7 @@ export default function Hero() {
             className={`${
               animation &&
               'translate-x-[-100%] transform transition delay-1000 duration-[900ms] ease-in'
-            } font-regular relative right-[-100%] mb-6 h-auto px-2 text-center text-base md:pb-20 md:text-xl`}
+            } font-regular relative right-[-100%] mb-6 h-auto whitespace-normal px-2 text-center text-base md:pb-20 md:text-xl`}
           >
             Venha aprender a dançar conosco!
           </p>
