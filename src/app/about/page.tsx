@@ -33,16 +33,16 @@ export default function Home() {
           <h1
             className={`${
               animation &&
-              'translate-x-full transform transition delay-1000 duration-[900ms] ease-in'
-            } relative left-[-100%] pb-4 text-2xl font-bold tracking-wide md:pb-8 md:text-5xl`}
+              'translate-x-[-10%] transform opacity-100 transition-all delay-1000 duration-[900ms] ease-in'
+            } relative right-[-10%] pb-4 text-2xl font-bold tracking-wide opacity-0 md:pb-8 md:text-5xl`}
           >
             Grupo de Dança
           </h1>
           <p
             className={`${
               animation &&
-              'translate-x-[-100%] transform transition delay-1000 duration-[900ms] ease-in'
-            } font-regular relative right-[-100%] h-auto whitespace-normal px-2 py-2 text-center text-base md:text-xl`}
+              'translate-x-[10%] transform opacity-100 transition-all delay-1000 duration-[900ms] ease-in'
+            } font-regular relative left-[-10%] h-auto whitespace-normal px-2 py-2 text-center text-base opacity-0 md:text-xl`}
           >
             Grupo de dança de Rio, São Paulo
           </p>

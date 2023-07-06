@@ -29,16 +29,16 @@ export default function Hero() {
           <h1
             className={`${
               animation &&
-              'translate-x-full transform transition delay-1000 duration-[900ms] ease-in'
-            } text-md relative left-[-100%] pb-4 text-2xl font-bold tracking-wide md:pb-8 md:text-5xl`}
+              'translate-x-[10%] opacity-100 transition-all delay-1000 duration-[900ms] ease-in'
+            } text-md relative left-[-10%] pb-4 text-2xl font-bold tracking-wide opacity-0 md:pb-8 md:text-5xl`}
           >
             Grupo de Dança
           </h1>
           <p
             className={`${
               animation &&
-              'translate-x-[-100%] transform transition delay-1000 duration-[900ms] ease-in'
-            } font-regular relative right-[-100%] mb-6 h-auto whitespace-normal px-2 text-center text-base md:pb-20 md:text-xl`}
+              'translate-x-[-10%] opacity-100 transition-all delay-1000 duration-[900ms] ease-in'
+            } font-regular relative right-[-10%] mb-6 h-auto whitespace-normal px-2 text-center text-base opacity-0 md:pb-20 md:text-xl`}
           >
             Venha aprender a dançar conosco!
           </p>
