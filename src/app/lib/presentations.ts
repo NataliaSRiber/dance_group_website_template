@@ -30,7 +30,7 @@ export const presentations: IPresentations[] = [
       dance4,
       danceMobile,
     ],
-    videoUrl: 'https://www.youtube.com/embed/xNRJwmlRBNU',
+    videoUrl: 'https://www.youtube.com/embed/HjBXLCjvE0Q',
   },
   {
     title: 'Apresentação de Natal',
@@ -48,7 +48,7 @@ export const presentations: IPresentations[] = [
       dance4,
       danceMobile,
     ],
-    videoUrl: 'https://www.youtube.com/embed/xNRJwmlRBNU',
+    videoUrl: 'https://www.youtube.com/embed/xPdEjrWP76s',
   },
   {
     title: 'Apresentação dia internacional da mulher',
@@ -66,6 +66,6 @@ export const presentations: IPresentations[] = [
       dance4,
       danceMobile,
     ],
-    videoUrl: 'https://www.youtube.com/embed/xNRJwmlRBNU',
+    videoUrl: 'https://www.youtube.com/embed/BJy6sR0-MVQ',
   },
 ]
