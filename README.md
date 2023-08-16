@@ -1,16 +1,13 @@
-<h1 align="center">Dance group website template</h1>
+<h1 align="center">Dance Group Website Template</h1>
 
 ## Descrição
-Template criado no intuito de praticar os conhecimentos adquiridos em Next.js e React
+Site institucional totalmente responsivo de um grupo de dança. Este aplicativo contém descrição, programação, fotos de apresentações, vídeos de apresentação no YouTube, informações de contato e localização no google maps. Ele também conta um recurso para contato via WhatsApp e outras mídias sociais.
 <br><br>
 
 ## Stacks de Desenvolvimento
 
 <div>
-  <a href="https://javascript.info/">
-    <img src="https://img.shields.io/badge/javascript-339933?style=for-the-badge&logo=javascript&color=black" />
-  </a>
-    <a href="https://typescript.info/">
+  <a href="https://typescript.info/">
     <img src="https://img.shields.io/badge/typescript-339933?style=for-the-badge&logo=typescript&color=black" />
   </a>
   <a href="https://pt-br.reactjs.org/docs/getting-started.html">
