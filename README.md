@@ -26,6 +26,8 @@ Site institucional totalmente responsivo de um grupo de dança. Este aplicativo 
 
 Acesse a aplicação alocada no Vercel por <a href="https://dance-group-website-template.vercel.app/"> aqui<a/>.
 
+<br>
+
 ## Rodando a aplicação localmente
 ### Requisitos
 
