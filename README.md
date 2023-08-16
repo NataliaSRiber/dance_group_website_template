@@ -22,6 +22,10 @@ Site institucional totalmente responsivo de um grupo de dança. Este aplicativo 
 </div>
 <br>
 
+## A aplicação em nuvem
+
+Acesse a aplicação alocada no Vercel por <a href="https://dance-group-website-template.vercel.app/"> aqui<a/>.
+
 ## Rodando a aplicação localmente
 ### Requisitos
 
@@ -44,3 +48,11 @@ Johann Munzlinger - https://github.com/jmlinger
 <br>
 Natalia de Souza - https://github.com/NataliaSRiber
 <br>
+
+<br>
+
+## Status
+
+<h3> 
+	🚧  Projeto Finalizado 🚧
+</h3>
