@@ -1,7 +1,7 @@
 <h1 align="center">Dance Group Website Template</h1>
 
 ## Descrição
-Site institucional totalmente responsivo de um grupo de dança. Este aplicativo contém descrição, programação, fotos de apresentações, vídeos de apresentação no YouTube, informações de contato e localização no google maps. Ele também conta um recurso para contato via WhatsApp e outras mídias sociais.
+Site institucional totalmente responsivo de um grupo de dança. Esta aplicação contém descrição, programação, fotos de apresentações, vídeos de apresentação no YouTube, informações de contato e localização via google maps. Ele também conta recursos para contato via WhatsApp e outras mídias sociais.
 <br><br>
 
 ## Stacks de Desenvolvimento
